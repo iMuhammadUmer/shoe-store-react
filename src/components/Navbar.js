@@ -14,20 +14,23 @@ export const Navbar = () => {
               <img src={logo} alt="logo" />
             </Link>
           </li>
-
           <li>
             <Link to="/" className={"link"}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/men" className={"link"}>
               Men
             </Link>
           </li>
-
           <li>
-            <Link to="/products" className={"link"}>
+            <Link to="/women" className={"link"}>
               Women
             </Link>
           </li>
           <li>
-            <Link to="/about" className={"link"}>
+            <Link to="/kids" className={"link"}>
               Kids
             </Link>
           </li>
@@ -35,7 +38,7 @@ export const Navbar = () => {
       </nav>
       <div class="rightSec">
         <input type="text" placeholder="Search" />
-        <Link to="/shoppingCart" className={"link"}>
+        <Link to="/shopping-cart" className={"link"}>
           <img src={shoppingBag} alt="shopping cart" />
         </Link>
       </div>
