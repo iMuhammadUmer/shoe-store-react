@@ -47,3 +47,20 @@ header input {
   justify-content: space-around;
   align-items: center;
 }
+.grid-container {
+  height: 550px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+.grid-item {
+  /* background-image: url(./images/natural-wood-fence.jpg); */
+  border-image: url(./images/natural-wood-fence.jpg) 30 round;
+  /* border: 10px solid transparent; */
+  border: 10px solid silver;
+  /* background-color: blue; */
+  /* padding: 20px; */
+  font-size: 30px;
+  text-align: center;
+}
