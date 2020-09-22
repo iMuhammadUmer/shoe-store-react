@@ -1,5 +1,6 @@
 :root {
   --grey: #1a1f2d;
+  --yellow: #ffb800;
 }
 a {
   color: inherit;
@@ -62,13 +63,20 @@ header input {
 }
 .showDescription {
   height: 500px;
-  /* background-color: black; */
+  margin-top: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .showDescription .col {
   height: inherit;
-  padding: 0 2em 0 2em;
-  /* background-color: blueviolet; */
+}
+#shoeName {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#price {
+  color: var(--yellow);
+  font-size: 40px;
+  font-weight: 700;
 }
