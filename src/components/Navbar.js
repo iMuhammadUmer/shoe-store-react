@@ -30,7 +30,7 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/kids" className={"link"}>
+            <Link to="/shoe-description" className={"link"}>
               Kids
             </Link>
           </li>
