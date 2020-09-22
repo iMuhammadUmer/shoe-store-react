@@ -62,13 +62,13 @@ header input {
 }
 .showDescription {
   height: 500px;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .showDescription .col {
   height: inherit;
-  width: 100px;
-  background-color: blueviolet;
+  padding: 0 2em 0 2em;
+  /* background-color: blueviolet; */
 }
