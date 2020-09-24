@@ -4,5 +4,41 @@
     "description": "The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run. More foam and improved upper details provide a secure and cushioned feel. Lace up and feel the potential as you hit the road.",
     "price": 160,
     "img": "./images/men-shoe1.png"
+  },
+  "men-shoe-2": {
+    "name": "AIR JORDAN 1 MID SE",
+    "description": "The Air Jordan 1 Mid SE maintains the timeless appeal of the first AJ1, revamped with fresh colors to give it an updated profile. It has a lightweight Air-Sole unit and a mix of natural and synthetic materials that make up its classic look.",
+    "price": 125,
+    "img": "./images/men-shoe2.png"
+  },
+  "men-shoe-3": {
+    "name": "NIKE AIR MAX 90 NRG",
+    "description": "Redesigned for casual wear, the Nike Air Max 90 NRG stays true to its '90s running roots with the rubber Waffle outsole, stitched overlays and TPU details. Bold new colors and fresh details combine with Max Air cushioning for everyday style and comfort.",
+    "price": 140,
+    "img": "./images/men-shoe3.png"
+  },
+  "men-shoe-4": {
+    "name": "Zoom Freak 2",
+    "description": "Giannis possesses a freakish combination of height, length and speed rarely seen in the league. The Zoom Freak 2 harnesses his power and helps enable him to generate force to help drive him down the court. A molded overlay caps the outer toe area to help contain Giannis' devastating Euro step move.",
+    "price": 120,
+    "img": "./images/men-shoe4.png"
+  },
+  "men-shoe-5": {
+    "name": "NIKE METCON 6",
+    "description": "The most breathable version yet, the Nike Metcon 6 helps keep your foot cool when you're going full steam. It stands up to the push and pull of heavily weighted and high-intensity workouts, delivering stability and durability.",
+    "price": 130,
+    "img": "./images/men-shoe5.png"
+  },
+  "men-shoe-6": {
+    "name": "NIKE TIEMPO LEGEND 8 ELITE TECH CRAFT FG",
+    "description": "The Nike Tiempo Legend 8 Elite Tech Craft FG gives you excellent touch and control of the ball in wet and dry conditions, thanks to a special finish on the kangaroo leather. The mesh lining hugs your foot for a comfortable feel right out of the box.",
+    "price": 230,
+    "img": "./images/men-shoe6.png"
+  },
+  "men-shoe-7": {
+    "name": "NIKE AIR ZOOM VICTORY TOUR NRG",
+    "description": "The Nike Air Zoom Victory Tour NRG redefines premium performance. Revolutionary cushioning delivers a responsive ride, while sleek synthetic leather adds sophistication to every round.",
+    "price": 200,
+    "img": "./images/men-shoe7.png"
   }
 }
