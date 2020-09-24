@@ -48,9 +48,63 @@
     "img": "./images/men-shoe8.png"
   },
   "men-shoe-9": {
-    "name": "NIKECOURT AIR ZOOM VAPOR X KNIT",
+    "name": "NIKE COURT AIR ZOOM VAPOR X KNIT",
     "description": "The latest innovation to hit the court, the NikeCourt Air Zoom Vapor X Knit gives you responsive performance in a breathable, lightweight design. The supportive knit and synthetic upper is built to secure your foot during your most explosive movements.",
     "price": 170,
     "img": "./images/men-shoe9.png"
+  },
+  "women-shoe-1": {
+    "name": "NIKE SPACE HIPPIE 04",
+    "description": "Space Hippie is a story of trash transformed. From the upper to the outsole, Space Hippie 04 is made of at least 25% recycled material by weight. Not only is it the most lightweight silhouette within the collection, it also has the lowest carbon footprint. Its ‘Space Waste Yarn’ upper includes about 75% recycled content by weight–made from recycled plastic bottles, t-shirts and yarn scraps. A soft, Crater Foam midsole combines Nike grind with a blend of foams for stability and a unique aesthetic.",
+    "price": 130,
+    "img": "./images/women-shoe1.png"
+  },
+  "women-shoe-2": {
+    "name": "NIKE AIR ZOOM PEGASUS 37 PREMIUM",
+    "description": "Reinvigorate your stride with the Nike Air Zoom Pegasus 37 Premium. Delivering the same fit and feel that runners love, the shoe has an all-new forefoot cushioning unit and foam for maximum responsiveness. Eye-popping colors and bold shapes deliver a new spin on your favorite. The result is a durable, lightweight trainer designed for everyday running.",
+    "price": 120,
+    "img": "./images/women-shoe2.png"
+  },
+  "women-shoe-3": {
+    "name": "NIKE METCON 6",
+    "description": "The most breathable version yet, the Nike Metcon 6 helps keep your foot cool when you're going full steam. It stands up to the push and pull of lifting and high-intensity workouts, delivering stability and durability.",
+    "price": 130,
+    "img": "./images/women-shoe3.png"
+  },
+  "women-shoe-4": {
+    "name": "KYBIRD S2 SASHIKO",
+    "description": "The Kybrid S2 Sashiko (a term that translates to little stabs) explores the connection between Kyrie's ability to put defenders on skates on the court, and his love for skating off of it. The design pays homage to the classic SB logo with a reimagined Nike BB logo on the tongue. It's dressed in a cool cream hue on the midsole with hits of blue stitching throughout.",
+    "price": 140,
+    "img": "./images/women-shoe4.png"
+  },
+  "women-shoe-5": {
+    "name": "JORDAN DELTA",
+    "description": "The Jordan Delta has a design that's expressive and comfortable from the inside out. Made with a mix of materials, this shoe has plush, lightweight foam underfoot. Its meticulously crafted for a look and feel only Jordan brand can deliver.",
+    "price": 130,
+    "img": "./images/women-shoe5.png"
+  },
+  "women-shoe-6": {
+    "name": "NIKE MERCURIAL VAPOR 13 PRO FG",
+    "description": "Building on the 360-degree Flyknit innovation of the 12, the Nike Mercurial Vapor 13 Pro FG adds a Nike Aerotrak zone that grips the turf to help supercharge the traction.",
+    "price": 117.97,
+    "img": "./images/women-shoe6.png"
+  },
+  "women-shoe-7": {
+    "name": "NIKECOURT AIR ZOOM VAPOR X",
+    "description": "The NikeCourt Air Zoom Vapor X is supportive and responsive so you can run, jump and slide in total comfort. The innovative outsole keeps weight to a minimum while putting durability where it's needed the most—so you can keep getting after it, match after match.",
+    "price": 150,
+    "img": "./images/women-shoe7.png"
+  },
+  "women-shoe-8": {
+    "name": "NIKE AIR ZOOM PEGASUS 36 TRAIL",
+    "description": "An icon hits the paths less traveled in the Nike Air Zoom Pegasus 36 Trail. Perforated mesh upper offers breathable comfort, and double Zoom Air units cushion your stride. Outsole lugs optimize traction when running uphill.",
+    "price": 130,
+    "img": "./images/women-shoe8.png"
+  },
+  "women-shoe-9": {
+    "name": "NIKE BELLA KAI 2 LEATHER",
+    "description": "Designed specifically for a woman’s foot, the Nike Bella Kai 2 Leather Thong beautifully blends form and function. It features a premium woven leather strap for a refined look and lasting durability. Soft lining wraps your foot in comfort, and the foam footbed adds plush cushioning for everyday wear.",
+    "price": 27.97,
+    "img": "./images/women-shoe9.png"
   }
 }
