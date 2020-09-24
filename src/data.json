@@ -40,5 +40,17 @@
     "description": "The Nike Air Zoom Victory Tour NRG redefines premium performance. Revolutionary cushioning delivers a responsive ride, while sleek synthetic leather adds sophistication to every round.",
     "price": 200,
     "img": "./images/men-shoe7.png"
+  },
+  "men-shoe-8": {
+    "name": "NIKE ZOOM PEGASUS TURBO 2",
+    "description": "The Nike Zoom Pegasus Turbo 2 is updated with a featherlight upper, while innovative foam brings revolutionary responsiveness to your long distance training.",
+    "price": 145.97,
+    "img": "./images/men-shoe8.png"
+  },
+  "men-shoe-9": {
+    "name": "NIKECOURT AIR ZOOM VAPOR X KNIT",
+    "description": "The latest innovation to hit the court, the NikeCourt Air Zoom Vapor X Knit gives you responsive performance in a breathable, lightweight design. The supportive knit and synthetic upper is built to secure your foot during your most explosive movements.",
+    "price": 170,
+    "img": "./images/men-shoe9.png"
   }
 }
