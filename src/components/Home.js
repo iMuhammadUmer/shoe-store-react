@@ -1,7 +1,9 @@
 import React from "react";
 import "../App.css";
+import shoes from "./../data.json";
 
 export const Home = () => {
+  console.log(shoes);
   return (
     <div>
       <div class="grid-container">
