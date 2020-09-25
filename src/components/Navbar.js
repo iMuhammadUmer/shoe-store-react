@@ -31,7 +31,7 @@ export const Navbar = () => {
           </li>
           <li>
             <Link to="/shoe-description" className={"link"}>
-              Kids
+              description
             </Link>
           </li>
         </ul>
