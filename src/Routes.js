@@ -18,7 +18,11 @@ function RouteConfig() {
           <Route exact path="/" component={Home} />
           <Route exact path="/men" component={Men} />
           <Route exact path="/women" component={Women} />
-          <Route exact path="/shoe-description" component={ShoeDescription} />
+          <Route
+            exact
+            path="/shoe-description/:id"
+            component={ShoeDescription}
+          />
           <Route exact path="/shopping-cart" component={ShoppingCart} />
           <Route path="*" component={() => <h2>Error 404</h2>} />
         </Switch>
