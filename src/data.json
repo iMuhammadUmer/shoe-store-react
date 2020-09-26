@@ -1,7 +1,7 @@
 {
   "men-shoe-1": {
     "name": "NIKE REACT",
-    "description": "The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run. More foam and improved upper details provide a secure and cushioned feel. Lace up and feel the potential as you hit the road.",
+    "description": "The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run. More foam and improved upper details provide a secure and cushioned feel. Lace-up and feel the potential as you hit the road.",
     "price": 160,
     "img": "./images/men-shoe1.png"
   },
@@ -43,7 +43,7 @@
   },
   "men-shoe-8": {
     "name": "NIKE ZOOM PEGASUS TURBO 2",
-    "description": "The Nike Zoom Pegasus Turbo 2 is updated with a featherlight upper, while innovative foam brings revolutionary responsiveness to your long distance training.",
+    "description": "The Nike Zoom Pegasus Turbo 2 is updated with a featherlight upper, while innovative foam brings revolutionary responsiveness to your long-distance training.",
     "price": 145.97,
     "img": "./images/men-shoe8.png"
   },
