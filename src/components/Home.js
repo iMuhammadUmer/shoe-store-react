@@ -1,12 +1,32 @@
 import React from "react";
 import "../App.css";
-import shoes from "./../data.json";
+import { Link } from "react-router-dom";
+import Shoes from "./../data.json";
 
 export const Home = () => {
-  console.log(shoes);
   return (
     <div>
-      <div class="grid-container">
+      <div>
+        {Object.keys(Shoes).map((keyName) => {
+          const shoe = Shoes[keyName];
+          return (
+            <div className="products">
+              <Link
+                key={keyName}
+                className="link"
+                to={`/shoe-description/${keyName}`}
+              >
+                <div class="grid-container">
+                  <div class="grid-item">
+                    <img src={shoe.img} height={300} alt="shoe" />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      {/* <div class="grid-container">
         <div class="grid-item">1</div>
         <div class="grid-item">2</div>
         <div class="grid-item">3</div>
@@ -16,7 +36,7 @@ export const Home = () => {
         <div class="grid-item">7</div>
         <div class="grid-item">8</div>
         <div class="grid-item">9</div>
-      </div>
+      </div> */}
     </div>
   );
 };
