@@ -10,10 +10,10 @@ export const Home = () => {
         {Object.keys(Shoes).map((keyName) => {
           const shoe = Shoes[keyName];
           return (
-            <div className="products">
+            <div>
               <Link
+                className="links"
                 key={keyName}
-                className="link"
                 to={`/shoe-description/${keyName}`}
               >
                 <div class="grid-container">
