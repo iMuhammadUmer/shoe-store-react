@@ -20,7 +20,7 @@ export const ShoeDescription = () => {
           <p>{shoe.description}</p>
           <p id="price">${shoe.price}</p>
         </div>
-        <img src={shoe.img} alt="shoeimage" />
+        <img src={shoe.img} alt={shoe.name} />
         {/* <div class="col">shoe images</div> */}
       </div>
     </body>
