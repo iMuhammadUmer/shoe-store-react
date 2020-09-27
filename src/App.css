@@ -9,8 +9,8 @@ a {
 body {
   background-color: var(--grey);
   color: white;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 header {
   height: 60px;
