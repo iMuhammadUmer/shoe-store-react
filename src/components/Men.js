@@ -1,9 +1,41 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Shoes from "./../data.json";
 
 export const Men = () => {
   return (
     <div>
-      <h1>Welcome to Men</h1>
+      <div>
+        {Object.keys(Shoes).map((keyName) => {
+          const shoe = Shoes[keyName];
+          return (
+            <div>
+              <Link
+                className="links"
+                key={keyName}
+                to={`/shoe-description/${keyName}`}
+              >
+                <div class="grid-container">
+                  <div class="grid-item">
+                    <img src={shoe.img} height={300} alt="shoe" />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      {/* <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+      </div> */}
     </div>
   );
 };
