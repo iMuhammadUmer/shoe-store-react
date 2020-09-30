@@ -19,6 +19,7 @@ export const ShoeDescription = () => {
           <h1 id="shoeName">{shoe.name}</h1>
           <p>{shoe.description}</p>
           <p id="price">${shoe.price}</p>
+          <button>Add to cart</button>
         </div>
         <img src={shoe.img} alt={shoe.name} />
         {/* <div class="col">shoe images</div> */}
