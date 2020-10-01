@@ -89,3 +89,18 @@ header input {
   font-size: 40px;
   font-weight: 700;
 }
+#btnAddToCart {
+  padding: 0.7em 2em 0.7em 2em;
+  background-color: var(--yellow);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  outline: none;
+  border: none;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  cursor: pointer;
+}
