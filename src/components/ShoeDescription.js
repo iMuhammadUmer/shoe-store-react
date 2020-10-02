@@ -21,10 +21,9 @@ export const ShoeDescription = () => {
           <p>{shoe.description}</p>
           <p id="price">${shoe.price}</p>
           <Link to="/shopping-cart" className={"link"}>
-            <button id="btnAddToCart">Add to cart</button>
+            <button id="btnAddToCart">Add to Cart</button>
           </Link>
         </div>
-
         <img src={shoe.img} alt={shoe.name} />
         {/* <div class="col">shoe images</div> */}
       </div>
