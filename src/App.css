@@ -76,7 +76,15 @@ header input {
 }
 .showDescription .col {
   height: inherit;
-  width: 50%;
+  width: 28%;
+}
+.showDescription p {
+  text-align: justify;
+}
+.showDescription img {
+  height: 350px;
+  width: 700px;
+  margin-left: 2em;
 }
 #shoeName {
   text-transform: uppercase;
