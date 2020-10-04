@@ -11,7 +11,7 @@ export const ShoeDescription = () => {
 
   if (!shoe) {
     return <h1>page not found</h1>;
-    // return <img src={pageNotFound} alt="error404" />;
+    // <img src={error} alt="Error 404" />;
   }
   return (
     <body>
