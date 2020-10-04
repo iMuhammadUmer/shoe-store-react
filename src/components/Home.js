@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
-import Shoes from "./../data.json";
+import Shoes from "../data";
 
 export const Home = () => {
   return (
