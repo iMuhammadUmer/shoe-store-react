@@ -1,12 +1,13 @@
 import React from "react";
+import "./App.css";
 import { Home } from "./components/Home.js";
 import { Men } from "./components/Men.js";
 import { Women } from "./components/Women.js";
-// import { Kids } from "./components/Kids.js";
 import { ShoeDescription } from "./components/ShoeDescription.js";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCart } from "./components/ShoppingCart";
 import error from "./images/error404.svg";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function RouteConfig() {
@@ -26,7 +27,12 @@ function RouteConfig() {
           <Route exact path="/shopping-cart" component={ShoppingCart} />
           <Route
             path="*"
-            component={() => <img src={error} alt="Error 404" />}
+            component={() => (
+              <div className="flex">
+                <img className="error" src={error} alt="Error 404" />
+                <h1>Page not found</h1>
+              </div>
+            )}
           />
         </Switch>
       </Router>
