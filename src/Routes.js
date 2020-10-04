@@ -6,7 +6,7 @@ import { Women } from "./components/Women.js";
 import { ShoeDescription } from "./components/ShoeDescription.js";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCart } from "./components/ShoppingCart";
-
+import error from "./images/error404.svg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function RouteConfig() {
@@ -24,7 +24,10 @@ function RouteConfig() {
             component={ShoeDescription}
           />
           <Route exact path="/shopping-cart" component={ShoppingCart} />
-          <Route path="*" component={() => <h2>Error 404</h2>} />
+          <Route
+            path="*"
+            component={() => <img src={error} alt="Error 404" />}
+          />
         </Switch>
       </Router>
     </div>
