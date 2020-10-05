@@ -3,15 +3,19 @@ import "../App.css";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Shoes from "./../data.json";
-// import pageNotFound from ".././images/pageNotFound.svg";
+import error from "../images/error404.svg";
 
 export const ShoeDescription = () => {
   const { id } = useParams();
   const shoe = Shoes[id];
 
   if (!shoe) {
-    return <h1>page not found</h1>;
-    // <img src={error} alt="Error 404" />;
+    return (
+      <div className="flex">
+        <img className="error" src={error} alt="Error 404" />
+        <h1>Page not found</h1>
+      </div>
+    );
   }
   return (
     <body>
